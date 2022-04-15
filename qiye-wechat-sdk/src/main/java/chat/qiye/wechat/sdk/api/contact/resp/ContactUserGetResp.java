@@ -22,7 +22,6 @@ import lombok.ToString;
 @Setter
 @ToString
 public class ContactUserGetResp extends RespStatus implements Serializable  {
-
   /**
    * 成员UserID。对应管理端的帐号，企业内必须唯一。不区分大小写，长度为1~64个字节
    */
@@ -46,7 +45,8 @@ public class ContactUserGetResp extends RespStatus implements Serializable  {
   /**
    * 部门内的排序值，默认为0。数量必须和department一致，数值越大排序越前面。值范围是[0, 2^32)
    */
-  private Integer order;
+//  private Integer order;
+  private Integer[] order;
 
   /**
    * 职位
@@ -101,6 +101,14 @@ public class ContactUserGetResp extends RespStatus implements Serializable  {
    */
   private Integer status;
 
+  private Integer enable;
+  private Integer isleader;
+  @JsonProperty("hide_mobile")
+  private Integer hideMobile;
+  @JsonProperty("direct_leader")
+  private String[] directLeader;
+  @JsonProperty("biz_mail")
+  private String bizMail;
   /**
    * 别名
    */

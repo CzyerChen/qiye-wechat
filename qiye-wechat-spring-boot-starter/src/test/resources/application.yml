@@ -1,0 +1,12 @@
+qiye:
+  wechat:
+    corp-id: ww23117f7abd9b7dfa
+    apps:
+      - app-id: customer
+        agent-id: 99
+        app-type: customer
+        secret: PiUfEJhEX8aWGWvk0TZwNInTLu-giLG8BhObGIIhXKc
+      - app-id: contact
+        agent-id: 88
+        app-type: contact
+        secret: FfOQhmX-v7CUwEEH8qC9GLX8TrJvJvi6b8kzU41QbBU

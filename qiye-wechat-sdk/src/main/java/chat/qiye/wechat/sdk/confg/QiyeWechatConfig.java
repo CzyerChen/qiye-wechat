@@ -17,26 +17,26 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class QiyeWechatConfig {
     private static final ConcurrentHashMap<String, String> props = new ConcurrentHashMap<>();
-    public static final String QIYE_WECAHT_API_MODEL = "qiye.wecaht.model";
+    public static final String QIYE_WECAHT_API_MODEL = "qiye.wechat.model";
 
-    public static final String QIYE_WECAHT_BASE_URL = "qiye.wecaht.baseUrl";
-    public static final String QIYE_WECAHT_NAME = "qiye.wecaht.name";
-    public static final String QIYE_WECAHT_APPID = "qiye.wecaht.appId";
-    public static final String QIYE_WECAHT_AGENTID = "qiye.wecaht.agentId";
-    public static final String QIYE_WECAHT_APPSECRET = "qiye.wecaht.secret";
-    public static final String QIYE_WECAHT_CORPID = "qiye.wecaht.corpId";
-    public static final String QIYE_WECAHT_HOMEURL = "qiye.wecaht.homeUrl";
-    public static final String QIYE_WECAHT_EVENT_TOKEN = "qiye.wecaht.eventToken";
-    public static final String QIYE_WECAHT_EVENT_ENCODING_AESKEY = "qiye.wecaht.eventEncodingAesKey";
+    public static final String QIYE_WECAHT_BASE_URL = "qiye.wechat.baseUrl";
+    public static final String QIYE_WECAHT_NAME = "qiye.wechat.name";
+    public static final String QIYE_WECAHT_APPID = "qiye.wechat.appId";
+    public static final String QIYE_WECAHT_AGENTID = "qiye.wechat.agentId";
+    public static final String QIYE_WECAHT_APPSECRET = "qiye.wechat.secret";
+    public static final String QIYE_WECAHT_CORPID = "qiye.wechat.corpId";
+    public static final String QIYE_WECAHT_HOMEURL = "qiye.wechat.homeUrl";
+    public static final String QIYE_WECAHT_EVENT_TOKEN = "qiye.wechat.eventToken";
+    public static final String QIYE_WECAHT_EVENT_ENCODING_AESKEY = "qiye.wechat.eventEncodingAesKey";
 
-    public static final String QIYE_WECAHT_TEMPL_NAME = "qiye.wecaht.%s.name";
-    public static final String QIYE_WECAHT_TEMPL_APPID = "qiye.wecaht.%s.appId";
-    public static final String QIYE_WECAHT_TEMPL_AGENTID = "qiye.wecaht.%s.agentId";
-    public static final String QIYE_WECAHT_TEMPL_APPSECRET = "qiye.wecaht.%s.secret";
-    public static final String QIYE_WECAHT_TEMPL_CORPID = "qiye.wecaht.%s.corpId";
-    public static final String QIYE_WECAHT_TEMPL_HOMEURL = "qiye.wecaht.%s.homeUrl";
-    public static final String QIYE_WECAHT_TEMPL_EVENT_TOKEN = "qiye.wecaht.%s.eventToken";
-    public static final String QIYE_WECAHT_TEMPL_EVENT_ENCODING_AESKEY = "qiye.wecaht.%s.eventEncodingAesKey";
+    public static final String QIYE_WECAHT_TEMPL_NAME = "qiye.wechat.%s.name";
+    public static final String QIYE_WECAHT_TEMPL_APPID = "qiye.wechat.%s.appId";
+    public static final String QIYE_WECAHT_TEMPL_AGENTID = "qiye.wechat.%s.agentId";
+    public static final String QIYE_WECAHT_TEMPL_APPSECRET = "qiye.wechat.%s.secret";
+    public static final String QIYE_WECAHT_TEMPL_CORPID = "qiye.wechat.%s.corpId";
+    public static final String QIYE_WECAHT_TEMPL_HOMEURL = "qiye.wechat.%s.homeUrl";
+    public static final String QIYE_WECAHT_TEMPL_EVENT_TOKEN = "qiye.wechat.%s.eventToken";
+    public static final String QIYE_WECAHT_TEMPL_EVENT_ENCODING_AESKEY = "qiye.wechat.%s.eventEncodingAesKey";
 
     private static void loadProps() {
         Properties properties = QiyeWechatConfigLoader.getProperties();
